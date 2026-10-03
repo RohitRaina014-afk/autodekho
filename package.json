@@ -1,0 +1,16 @@
+{
+  "name": "autodekho",
+  "version": "1.0.0",
+  "description": "AutoDekho - Modern Full-Stack MERN Automotive Marketplace",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client",
+    "seed": "npm run seed --prefix server",
+    "start": "NODE_ENV=production node server/server.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "keywords": ["mern", "react", "express", "mongodb", "nodejs", "marketplace"],
+  "author": "",
+  "license": "MIT"
+}
